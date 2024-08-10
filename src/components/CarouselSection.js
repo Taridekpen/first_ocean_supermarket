@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const CarouselSection = () => {
   return (
-    <div className="fixed top-0 left-0 w-full bg-gray-800 text-white p-4 z-10">
+    <div className="top-0 left-0 buttom-0 w-full bg-gray-800 text-white p-4 z-10">
       <Carousel
         showArrows={true}
         autoPlay={true}

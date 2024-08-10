@@ -11,7 +11,7 @@ const products = [
 const ProductGrid = () => {
   return (
     <div className="container mx-auto p-4 mt-20"> {/* Added mt-20 for margin-top */}
-      {Array.from({ length: 7 }).map((_, rowIndex) => (
+      {Array.from({ length: 3 }).map((_, rowIndex) => (
         <div key={rowIndex} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mb-6">
           {products.map(product => (
             <div key={product.id} className="border p-4 rounded-lg shadow-md">
